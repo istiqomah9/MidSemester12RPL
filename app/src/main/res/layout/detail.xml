@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/gambar"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/ic_launcher_round"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama"
+                android:padding="5dp"
+                android:text="nama"/>
+            
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnmasuk"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="149dp"
+            android:layout_marginTop="30dp"
+            android:text="detail" />
+        <Button
+            android:id="@+id/btnshare"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="30dp"
+            android:text="share" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndelete"
+            android:layout_marginTop="100dp"
+            android:background="#fffefe"
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

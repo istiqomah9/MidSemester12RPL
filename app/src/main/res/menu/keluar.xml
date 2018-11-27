@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_favorite"
+        android:title="favorite"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:visible="true">
+    </item>
+
+    <item
+        android:id="@+id/item_keluar"
+        android:title="keluar"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:visible="true">
+    </item>
+
+</menu>
